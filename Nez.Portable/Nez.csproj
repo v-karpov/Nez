@@ -19,8 +19,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MonoGame.Framework.Portable" Version="3.7.1.189" />
 		<PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
+    </Reference>
 	</ItemGroup>
 
 	<ItemGroup>
